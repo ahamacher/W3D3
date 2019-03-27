@@ -1,11 +1,12 @@
 body, header, nav, ul, li, aside, h2, 
 section, h1, figure, ol, form, label, 
 select, option, footer {
-  margin: inherit;
-  padding: inherit;
-  border: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-family: inherit;
-  font-size: inherit;
+  font: inherit;
+  font-size: 100%;
   font-weight: inherit;
 }
 
@@ -19,5 +20,5 @@ body {
 }
 
 img { 
-  width: inherit
+  width: 100%;
 }
